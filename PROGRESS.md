@@ -8,10 +8,10 @@
 
 ## Bölüm A — Yeni Repo Kurulumu
 - [x] Mevcut durum analiz edildi (A.1)
-- [~] Kurulum planı sunuldu, onaylandı (A.2)
-- [ ] Repo kuruldu: sarmalayıcı klasör yok, Laravel kökü = repo kökü (A.3)
-- [ ] Push için onay alındı, push yapıldı
-- [ ] Son doğrulama temiz (submodule/nested yok) (A.4)
+- [x] Kurulum planı sunuldu, onaylandı (A.2)
+- [x] Repo kuruldu: sarmalayıcı klasör yok, Laravel kökü = repo kökü (A.3)
+- [ ] Push için onay alındı, push yapıldı (kullanıcı "Save to Github" ile yapacak)
+- [x] Son doğrulama temiz (submodule/nested yok) (A.4)
 
 ## Bölüm B — Dosya/Klasör Yapısı Denetimi
 - [ ] CSS-in-Vue-klasörü + diğer düzensizlikler denetlendi (B.1)

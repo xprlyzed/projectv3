@@ -29,6 +29,5 @@ Thumbs.db
 /memory
 /test_reports
 /.ruff_cache
-/.deploy
 /dump.rdb
 /public/build-old
