@@ -23,3 +23,12 @@ Homestead.json
 Homestead.yaml
 Thumbs.db
 !.env.example
+
+# Platform scaffolding & artifacts (GitHub'a gitmesin)
+/.emergent
+/memory
+/test_reports
+/.ruff_cache
+/.deploy
+/dump.rdb
+/public/build-old
