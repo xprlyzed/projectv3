@@ -68,4 +68,4 @@ onUnmounted(() => document.body.classList.remove('auth-page'));
     </div>
 </template>
 
-<style scoped src="./AuthLayout.css"></style>
+<style scoped src="../../css/layouts/auth-layout.css"></style>

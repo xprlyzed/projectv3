@@ -35,4 +35,4 @@ function submit() {
     </div>
 </template>
 
-<style scoped src="./ReviewForm.css"></style>
+<style scoped src="../../css/components/review-form.css"></style>

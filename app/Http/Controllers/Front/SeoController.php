@@ -1,7 +1,8 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Front;
 
+use App\Http\Controllers\Controller;
 use App\Models\Auction;
 use Illuminate\Support\Facades\Cache;
 use Spatie\Sitemap\Sitemap;

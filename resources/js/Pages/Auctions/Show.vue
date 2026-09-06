@@ -688,4 +688,4 @@ onUnmounted(() => {
 </template>
 
 
-<style scoped src="./Show.css"></style>
+<style scoped src="../../../css/pages/auctions-show.css"></style>

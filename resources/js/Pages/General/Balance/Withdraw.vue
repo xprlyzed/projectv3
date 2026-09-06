@@ -103,4 +103,4 @@ function submit() {
     </div>
 </template>
 
-<style scoped src="./Withdraw.css"></style>
+<style scoped src="../../../../css/pages/general-balance-withdraw.css"></style>

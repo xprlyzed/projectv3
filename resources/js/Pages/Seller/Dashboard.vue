@@ -416,4 +416,4 @@ onBeforeUnmount(() => { if (chartInstance) { try { chartInstance.destroy(); } ca
     </div>
 </template>
 
-<style scoped src="./Dashboard.css"></style>
+<style scoped src="../../../css/pages/seller-dashboard.css"></style>

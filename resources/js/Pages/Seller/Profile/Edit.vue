@@ -252,4 +252,4 @@ function saveActiveTab() {
     </div>
 </template>
 
-<style scoped src="./Edit.css"></style>
+<style scoped src="../../../../css/pages/seller-profile-edit.css"></style>

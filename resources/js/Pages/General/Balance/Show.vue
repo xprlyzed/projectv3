@@ -105,4 +105,4 @@ function copyValue(text) {
     </div>
 </template>
 
-<style scoped src="./Show.css"></style>
+<style scoped src="../../../../css/pages/general-balance-show.css"></style>

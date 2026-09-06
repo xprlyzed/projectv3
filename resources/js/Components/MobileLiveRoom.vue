@@ -371,4 +371,4 @@ function close() { emit('close'); }
     </div>
 </template>
 
-<style scoped src="./MobileLiveRoom.css"></style>
+<style scoped src="../../css/components/mobile-live-room.css"></style>

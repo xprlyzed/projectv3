@@ -263,4 +263,4 @@ function submit() {
     </div>
 </template>
 
-<style scoped src="./Create.css"></style>
+<style scoped src="../../../../css/pages/general-balance-create.css"></style>

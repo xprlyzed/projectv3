@@ -80,4 +80,4 @@ function resolve(decision) {
     </div>
 </template>
 
-<style scoped src="./Show.css"></style>
+<style scoped src="../../../../css/pages/admin-orders-show.css"></style>

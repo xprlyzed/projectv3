@@ -208,4 +208,4 @@ const details = computed(() => [
     </div>
 </template>
 
-<style scoped src="./Show.css"></style>
+<style scoped src="../../../../css/pages/seller-auctions-show.css"></style>

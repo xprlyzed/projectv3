@@ -123,4 +123,4 @@ const showTrackingBox = computed(() => ['shipped', 'delivered', 'completed'].inc
     </div>
 </template>
 
-<style scoped src="./Show.css"></style>
+<style scoped src="../../../../css/pages/seller-sales-show.css"></style>

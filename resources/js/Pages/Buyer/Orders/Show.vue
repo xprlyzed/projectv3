@@ -144,4 +144,4 @@ const showDisputeBox = computed(() => ['paid', 'shipped', 'delivered'].includes(
     </div>
 </template>
 
-<style scoped src="./Show.css"></style>
+<style scoped src="../../../../css/pages/buyer-orders-show.css"></style>

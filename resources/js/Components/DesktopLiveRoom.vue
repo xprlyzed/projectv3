@@ -378,4 +378,4 @@ function close() { emit('close'); }
     </div>
 </template>
 
-<style scoped src="./DesktopLiveRoom.css"></style>
+<style scoped src="../../css/components/desktop-live-room.css"></style>

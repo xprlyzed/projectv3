@@ -220,4 +220,4 @@ function submit() {
     </div>
 </template>
 
-<style scoped src="./Create.css"></style>
+<style scoped src="../../../../css/pages/seller-auctions-create.css"></style>

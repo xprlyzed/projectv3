@@ -489,4 +489,4 @@ onUnmounted(() => {
     <StoryUpload v-if="user && user.is_seller" />
 </template>
 
-<style scoped src="./AppLayout.css"></style>
+<style scoped src="../../css/layouts/app-layout.css"></style>

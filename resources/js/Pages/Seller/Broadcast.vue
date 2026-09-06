@@ -525,4 +525,4 @@ onBeforeUnmount(() => {
     </div>
 </template>
 
-<style scoped src="./Broadcast.css"></style>
+<style scoped src="../../../css/pages/seller-broadcast.css"></style>

@@ -23,7 +23,7 @@ const summary = [
 function approve() { router.post(a.approve_url, {}, { preserveScroll: true }); }
 function reject() {
     if (typeof window.Swal !== 'undefined') {
-        window.Swal.fire({ title: 'İlanı Reddet', input: 'textarea', inputPlaceholder: 'Gerekçe (isteğe bağlı)...', html: `<div style="font-size:13px;color:#94a3b8">"${a.title}" reddedilecek.</div>`, showCancelButton: true, confirmButtonText: 'Reddet', cancelButtonText: 'Vazgeç', reverseButtons: true, confirmButtonColor: '#ef4444' }).then((r) => { if (r.isConfirmed) router.post(a.reject_url, { reason: r.value || '' }, { preserveScroll: true }); });
+        window.Swal.fire({ title: 'İlanı Reddet', input: 'textarea', inputPlaceholder: 'Gerekçe (isteğe bağlı)...', html: `<div class="swal-reject-note">"${a.title}" reddedilecek.</div>`, showCancelButton: true, confirmButtonText: 'Reddet', cancelButtonText: 'Vazgeç', reverseButtons: true, confirmButtonColor: '#ef4444' }).then((r) => { if (r.isConfirmed) router.post(a.reject_url, { reason: r.value || '' }, { preserveScroll: true }); });
     } else { const reason = prompt('Gerekçe:'); if (reason !== null) router.post(a.reject_url, { reason }, { preserveScroll: true }); }
 }
 function del() {
@@ -153,4 +153,4 @@ function del() {
     </div>
 </template>
 
-<style scoped src="./Show.css"></style>
+<style scoped src="../../../../css/pages/admin-auctions-show.css"></style>

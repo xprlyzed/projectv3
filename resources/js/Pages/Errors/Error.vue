@@ -60,4 +60,4 @@ const goBack = () => window.history.length > 1 ? window.history.back() : (window
     </div>
 </template>
 
-<style scoped src="./Error.css"></style>
+<style scoped src="../../../css/pages/error.css"></style>

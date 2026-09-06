@@ -72,4 +72,4 @@ function tabHref(key) {
     </div>
 </template>
 
-<style scoped src="./Index.css"></style>
+<style scoped src="../../../../css/pages/admin-orders-index.css"></style>

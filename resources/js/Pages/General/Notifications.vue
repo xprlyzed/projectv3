@@ -56,4 +56,4 @@ function readAll() {
     </div>
 </template>
 
-<style scoped src="./Notifications.css"></style>
+<style scoped src="../../../css/pages/general-notifications.css"></style>

@@ -131,4 +131,4 @@ onBeforeUnmount(() => {
     </Teleport>
 </template>
 
-<style src="./StoryUpload.css" scoped></style>
+<style scoped src="../../css/components/story-upload.css"></style>

@@ -85,3 +85,5 @@ html.light-mode .idx-card-img::before {
 }
 
 .swal2-container { z-index: 100000 !important; }
+
+.swal-reject-note { font-size: 13px; color: #94a3b8; }

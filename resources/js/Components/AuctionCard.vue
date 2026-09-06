@@ -66,4 +66,4 @@ onMounted(() => {
     </Link>
 </template>
 
-<style scoped src="./AuctionCard.css"></style>
+<style scoped src="../../css/components/auction-card.css"></style>

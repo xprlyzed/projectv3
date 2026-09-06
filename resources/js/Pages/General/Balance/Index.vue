@@ -158,4 +158,4 @@ function goTo(url) {
     </div>
 </template>
 
-<style scoped src="./Index.css"></style>
+<style scoped src="../../../../css/pages/general-balance-index.css"></style>

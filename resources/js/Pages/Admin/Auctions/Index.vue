@@ -37,7 +37,7 @@ function reject(a) {
     if (typeof window.Swal !== 'undefined') {
         window.Swal.fire({
             title: 'İlanı Reddet', input: 'textarea', inputPlaceholder: 'Gerekçe (isteğe bağlı, kullanıcıya iletilir)...',
-            html: `<div style="font-size:13px;color:#94a3b8">"${a.raw_title}" reddedilecek.</div>`,
+            html: `<div class="swal-reject-note">"${a.raw_title}" reddedilecek.</div>`,
             showCancelButton: true, confirmButtonText: 'Reddet', cancelButtonText: 'Vazgeç', reverseButtons: true, confirmButtonColor: '#ef4444',
         }).then((r) => { if (r.isConfirmed) router.post(a.reject_url, { reason: r.value || '' }, { preserveScroll: true }); });
     } else {
@@ -182,4 +182,4 @@ const nextLink = computed(() => props.auctions.links[props.auctions.links.length
     </div>
 </template>
 
-<style scoped src="./Index.css"></style>
+<style scoped src="../../../../css/pages/admin-auctions-index.css"></style>

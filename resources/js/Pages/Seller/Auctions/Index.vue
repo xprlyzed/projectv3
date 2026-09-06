@@ -202,4 +202,4 @@ const nextLink = computed(() => props.auctions.links[props.auctions.links.length
     </div>
 </template>
 
-<style scoped src="./Index.css"></style>
+<style scoped src="../../../../css/pages/seller-auctions-index.css"></style>

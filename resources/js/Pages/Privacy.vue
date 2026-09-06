@@ -148,4 +148,4 @@ const rights = [
     </div>
 </template>
 
-<style scoped src="./Privacy.css"></style>
+<style scoped src="../../css/pages/privacy.css"></style>

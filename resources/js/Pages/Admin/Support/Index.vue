@@ -128,4 +128,4 @@ function submitFilter() {
     </div>
 </template>
 
-<style scoped src="./Index.css"></style>
+<style scoped src="../../../../css/pages/admin-support-index.css"></style>

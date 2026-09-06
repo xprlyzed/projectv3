@@ -156,4 +156,4 @@ function submit() { form.post(props.store_url, { forceFormData: true }); }
     </div>
 </template>
 
-<style scoped src="./Create.css"></style>
+<style scoped src="../../../../css/pages/admin-users-create.css"></style>

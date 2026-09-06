@@ -528,4 +528,4 @@ function submitPF(e) {
          :data-error-fields="JSON.stringify(config.error_fields)"></div>
 </template>
 
-<style scoped src="./Show.css"></style>
+<style scoped src="../../../css/pages/profile-show.css"></style>

@@ -178,4 +178,4 @@ const nextLink = computed(() => props.users.links[props.users.links.length - 1])
     </div>
 </template>
 
-<style scoped src="./Index.css"></style>
+<style scoped src="../../../../css/pages/admin-users-index.css"></style>

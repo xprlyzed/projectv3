@@ -195,4 +195,4 @@ function submit() {
     </div>
 </template>
 
-<style scoped src="./Edit.css"></style>
+<style scoped src="../../../../css/pages/admin-users-edit.css"></style>

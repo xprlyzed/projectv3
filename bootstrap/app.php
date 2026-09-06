@@ -57,7 +57,7 @@ return Application::configure(basePath: dirname(__DIR__))
                     // DB erişilemezse (örn. 500) sayaç 0 kalır
                 }
 
-                return \Inertia\Inertia::render('Error', [
+                return \Inertia\Inertia::render('Errors/Error', [
                     'status' => $status,
                     'activeAuctions' => $activeAuctions,
                 ])

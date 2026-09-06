@@ -163,4 +163,4 @@ function barHeight(c) {
     </div>
 </template>
 
-<style scoped src="./Dashboard.css"></style>
+<style scoped src="../../../css/pages/admin-dashboard.css"></style>

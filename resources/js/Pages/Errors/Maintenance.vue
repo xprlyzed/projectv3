@@ -67,4 +67,4 @@ onMounted(() => {
     </div>
 </template>
 
-<style src="./Maintenance.css"></style>
+<style scoped src="../../../css/pages/errors-maintenance.css"></style>

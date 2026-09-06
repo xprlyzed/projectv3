@@ -31,3 +31,9 @@ Thumbs.db
 /.ruff_cache
 /dump.rdb
 /public/build-old
+.env.*
+*.env
+credentials.json
+*.pem
+*.key
+.credentials

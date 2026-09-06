@@ -448,4 +448,4 @@ const tabs = [
     </div>
 </template>
 
-<style scoped src="./Index.css"></style>
+<style scoped src="../../../../css/pages/admin-settings-index.css"></style>

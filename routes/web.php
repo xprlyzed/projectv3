@@ -22,14 +22,14 @@ use App\Http\Controllers\General\OrderController;
 use App\Http\Controllers\General\ProfileController;
 use App\Http\Controllers\General\SearchController;
 use App\Http\Controllers\General\SupportController;
-use App\Http\Controllers\LiveKitTokenController;
+use App\Http\Controllers\LiveKit\LiveKitTokenController;
 use App\Http\Controllers\Seller\AuctionController as SellerAuctionController;
 use App\Http\Controllers\Seller\BroadcastController;
 use App\Http\Controllers\Seller\SaleController as SellerSaleController;
 use App\Http\Controllers\Seller\DashboardController as SellerDashboard;
 use App\Http\Controllers\Seller\ProfileController as SellerProfileController;
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\SeoController;
+use App\Http\Controllers\Front\SeoController;
 
 /*
 |==========================================================================
@@ -58,7 +58,7 @@ Route::get('/auctions/{auction:slug}/chat', [ChatController::class, 'poll'])->na
 Route::post('/livekit/token', LiveKitTokenController::class)
     ->middleware('throttle:60,1')->name('livekit.token');
 // DM (özel mesaj) odası token'ı — yalnızca giriş yapmış katılımcılar.
-Route::post('/livekit/dm-token', \App\Http\Controllers\LiveKitDmTokenController::class)
+Route::post('/livekit/dm-token', \App\Http\Controllers\LiveKit\LiveKitDmTokenController::class)
     ->middleware(['auth', 'throttle:60,1'])->name('livekit.dm-token');
 Route::get('/u/{username}', [ProfileController::class, 'show'])
     ->where('username', '[a-z0-9._]+')

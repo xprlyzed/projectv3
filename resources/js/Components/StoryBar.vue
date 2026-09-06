@@ -51,4 +51,4 @@ onMounted(() => {
     </div>
 </template>
 
-<style scoped src="./StoryBar.css"></style>
+<style scoped src="../../css/components/story-bar.css"></style>

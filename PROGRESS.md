@@ -15,9 +15,9 @@
 
 ## Bölüm B — Dosya/Klasör Yapısı Denetimi
 - [x] CSS-in-Vue-klasörü + diğer düzensizlikler denetlendi (B.1)
-- [~] CSS konumu kararı (public/assets vs resources/css/pages) soruldu, netleşti (B.2)
-- [ ] Diğer bulgular için onay alındı (B.3)
-- [ ] Onaylananlar uygulandı (B.4)
+- [x] CSS konumu kararı (public/assets vs resources/css/pages) soruldu, netleşti (B.2 → Seçenek 2)
+- [x] Diğer bulgular için onay alındı (B.3 → 1,2,3,4 onaylandı)
+- [x] Onaylananlar uygulandı (B.4): 40 CSS resources/css/{pages,components,layouts}'a taşındı; Error→Errors/Error; LiveKit*→LiveKit/, Seo→Front/; SweetAlert inline style→sınıf. build+35 test yeşil.
 
 ## Bölüm C — Login/Register Sağ Panel Yenileme
 - [ ] Mevcut durum incelendi (C.1)

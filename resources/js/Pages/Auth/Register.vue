@@ -282,4 +282,4 @@ onMounted(() => {
     </form>
 </template>
 
-<style scoped src="./Register.css"></style>
+<style scoped src="../../../css/pages/auth-register.css"></style>

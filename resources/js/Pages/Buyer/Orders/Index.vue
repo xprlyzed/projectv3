@@ -59,4 +59,4 @@ const flash = computed(() => page.props.flash || {});
     </div>
 </template>
 
-<style scoped src="./Index.css"></style>
+<style scoped src="../../../../css/pages/buyer-orders-index.css"></style>
