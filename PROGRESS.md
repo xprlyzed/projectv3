@@ -14,8 +14,8 @@
 - [x] Son doğrulama temiz (submodule/nested yok) (A.4)
 
 ## Bölüm B — Dosya/Klasör Yapısı Denetimi
-- [ ] CSS-in-Vue-klasörü + diğer düzensizlikler denetlendi (B.1)
-- [ ] CSS konumu kararı (public/assets vs resources/css/pages) soruldu, netleşti (B.2)
+- [x] CSS-in-Vue-klasörü + diğer düzensizlikler denetlendi (B.1)
+- [~] CSS konumu kararı (public/assets vs resources/css/pages) soruldu, netleşti (B.2)
 - [ ] Diğer bulgular için onay alındı (B.3)
 - [ ] Onaylananlar uygulandı (B.4)
 
